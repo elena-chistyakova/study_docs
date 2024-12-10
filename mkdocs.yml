@@ -45,6 +45,9 @@ markdown_extensions: # Расширения markdown
   - def_list # Поддержка списков определений
   - pymdownx.tabbed # Использование вкладок (табов)
   - pymdownx.details # Использование спойлеров (катов)
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
   - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
       anchor_linenums: true
   - pymdownx.superfences # Поддержка вложенных блоков кода
